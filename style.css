@@ -1,9 +1,9 @@
 body{
-    background-color:rgb(231 220 187);
+    background-color:rgb(231 220 187); 
     color: rgb(42, 40, 40);
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-family: 'Open Sans', sans-serif;   
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;   
 }
 a{
     text-decoration: none;
@@ -17,12 +17,14 @@ a{
     position: fixed;    
     top: 0;
     left: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     display: flex;
     justify-content: center;   
 }
 
 #top, #navbar{
-    background-color: rgb(199 209 216);
+     background-color: rgb(199 209 216); 
+    
 }
 #navbar{
     width: 75%;
@@ -34,6 +36,7 @@ a{
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);  
+    
 }
 
 
@@ -42,16 +45,17 @@ a{
     width: 56px;
     display: flex;
     align-items: center;
-    background-color: rgb(99, 99, 99);
-    border: 2px solid white;
+    /* background-color: rgb(99, 99, 99); */
+    /* border: 2px solid white; */
     border-radius: 50%;  
     /* font-weight: 500;   */
-    color: white;
+    color: rgb(10, 10, 10);
+    
 }
 
 #icon:hover{
     cursor: pointer;
-    background-color: rgb(111, 111, 111);
+    /* background-color: rgb(111, 111, 111); */
 }
 
 #icon > p{
@@ -61,7 +65,7 @@ a{
 #icon > i{
     margin: auto;
     font-size: 28px;
-    color: white;
+    color: rgb(14, 14, 14);
 }
 
 
@@ -120,7 +124,7 @@ a{
 }
 
 .brief{
-    border-left: 6px solid rgb(100, 100, 100);
+    /* border-left: 6px solid rgb(100, 100, 100); */
     padding-left: 2%;
 }
 
@@ -175,27 +179,29 @@ a{
 
 
 
-#skills, #projects, #contacts , #education{
+#skills, #projects, #contacts , #amoutme{
     width: 75%;
     /* padding-left: 3%; */
     /* height: 200px; */
     border: 1px solid rgb(160, 160, 160);
     border-radius: 10px;
     margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
     margin-top: 120px;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
-#education{
+#amoutme{
     margin-top: 160px;
 }
 
 
 
 
-#masai, #graduation, #inter{
+#aboutdata{
     border: 1px solid rgb(160, 160, 160);
-    border-left: 10px solid rgb(120, 120, 120);
+    
     background-color: rgb(160, 157, 157);
     width: 64%;
     margin: auto;
@@ -205,7 +211,7 @@ a{
     
 }
 
-#education i{
+#amoutme i{
     font-size: 30px;
 }
 
@@ -213,9 +219,11 @@ a{
     border-bottom: 1px solid rgb(160, 160, 160);
     text-align: center;
     font-size: 44px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     line-height: 10px;
     font-weight: 400;
     /* color: white; */
+    
     /* margin-bottom: 60px; */
 }
 
@@ -477,22 +485,22 @@ a{
         margin-top: 0px;
     }
 
-    #skills, #projects, #contacts , #education{
+    #skills, #projects, #contacts , #amoutme{
         width: 96%;       
         margin-top: 40px;
-        padding-bottom: 5%;
+        padding-bottom: 50%;
     }
 
     .heading{                
         font-size: 24px;       
     }
 
-    #masai, #graduation, #inter{        
+    #aboutdata{        
         width: 90%;        
         margin-top: 18px;            
     }
     
-    #education i{
+    #amoutme i{
         font-size: 15px;
     }
 
@@ -515,6 +523,7 @@ a{
 
     #types .skillHead{
         font-size: 20px;
+        padding-bottom: 200px;
     }
 
     #types img{
