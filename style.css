@@ -458,7 +458,7 @@ a{
         width: 52%;
         line-height: 10px;       
         padding-left: 5%;
-        margin-top: -20px;
+        margin-top: 20px;
     }
 
     #intro > .brief{
@@ -617,3 +617,4 @@ a{
 
     
 }
+
