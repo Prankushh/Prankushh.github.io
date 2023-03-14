@@ -9,7 +9,6 @@ function myPort(){
 //     window.open('', '_blank');
 // })
 
-function resumeDownload(){
-   
+function resumeDownload(){   
     window.open("https://drive.google.com/file/d/1lzMXWPqoVCkEXWd-REdT5JWIs4f6Hwwo/view?usp=sharing","_blank");
   }
