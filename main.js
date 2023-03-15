@@ -10,5 +10,5 @@ function myPort(){
 // })
 
 function resumeDownload(){   
-    window.open("https://drive.google.com/file/d/1lzMXWPqoVCkEXWd-REdT5JWIs4f6Hwwo/view?usp=sharing","_blank");
-  }
+    window.open("https://drive.google.com/file/d/1ALaS77jbUPH3aG-DpZC_oAZe_9tkisMz/view?usp=sharing","_blank");
+  } 

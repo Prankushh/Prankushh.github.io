@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(231 220 187); 
+    background-color:rgba(15, 112, 83, 0.675); 
     color: rgb(42, 40, 40);
     color: black;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -23,7 +23,7 @@ a{
 }
 
 #top, #navbar{
-     background-color: rgb(199 209 216); 
+     background-color: rgba(209, 220, 225, 0.984); 
     
 }
 #navbar{
