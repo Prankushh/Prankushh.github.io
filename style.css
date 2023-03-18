@@ -41,15 +41,31 @@ a{
 
 
 #icon{
-    height: 56px;
-    width: 56px;
-    display: flex;
-    align-items: center;
+    /* height: 56px;
+    width: 56px; */
+    /* display: flex; */
+    /* align-items: center; */
     /* background-color: rgb(99, 99, 99); */
     /* border: 2px solid white; */
-    border-radius: 50%;  
+    /* border-radius: 50%;  
     /* font-weight: 500;   */
-    color: rgb(10, 10, 10);
+    /* color: rgb(10, 10, 10);
+    margin: auto;
+    
+     */ 
+     border-radius: 5px solid red;
+}
+#icon h2{
+    /* height: 56px;
+    width: 56px; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* background-color: rgb(99, 99, 99); */
+    /* border: 2px solid white; */
+    /* border-radius: 50%;   */
+    /* font-weight: 500;   */
+    color: rgb(217, 51, 51);
+    /* margin: auto; */
     
 }
 
@@ -400,6 +416,230 @@ a{
     height: 120px;    
 }
 
+ @media only screen and (min-width : 768px) and (max-width : 1024px){
+    #top{
+        height: 80px;
+        width: 100%;        
+    }      
+
+
+#icon{
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+}
+
+#navbar{
+    border: 1px solid white;
+    border: none;
+    width: 95%;
+    margin: auto;
+    height: 85%;        
+}
+
+#icon > i{
+    font-size: 60px;
+}
+
+#nav_opt{
+    /* border: 2px solid white; */
+    margin-right: 20px;
+}
+
+#nav_opt > div{        
+    margin-left: 0px;
+    padding-left: 20px;
+    padding-right: 20px;       
+    font-size: 18px;
+    height: 50%;
+}
+
+#about{
+    /* border: 2px solid white; */       
+    width: 100%;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#about > div{
+     /* border: 2px solid white; */
+     width: 100%;
+}
+
+#intro{
+    font-size:28px;        
+    width: 52%;
+    line-height: 10px;  
+    text-justify: auto;     
+    padding-left: 5%;
+    margin-top: 20px;
+}
+
+#intro > .brief{
+    width: 80%;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+#photo > div{
+    width: 50%;
+    margin: auto;
+}
+
+#intro > .locate{
+    font-size: 22px;
+    line-height: 24px;
+}
+
+#resume{       
+    font-size: 18px;       
+    letter-spacing: 2px;       
+    padding: 8px 16px 8px 16px;
+    border-radius: 5px;
+    margin-top: 0px;
+}
+
+#skills, #projects, #contacts , #amoutme {
+    width: 96%;       
+    margin-top: 40px;
+    padding-bottom: 8%;
+
+}
+
+.heading{                
+    font-size: 30px;       
+}
+
+#aboutdata{        
+    width: 90%;        
+    margin-top: 18px;            
+}
+
+#amoutme i{
+    font-size: 15px;
+}
+#amoutme {
+    margin-bottom: 80px;
+    padding-bottom: 35px;
+}
+
+.name3{
+    font-size: 17px;         
+    margin-left: 8px;
+    line-height: 8px;   
+}
+
+.line3{
+    font-size: 13px;
+    margin-left: 10px;        
+    line-height: 8px;
+}
+
+#types{
+    display: flex;
+    flex-direction: column; 
+      
+}
+
+#types .skillHead{
+    font-size: 25px;
+    padding-bottom: 36px;
+}
+
+#types img{
+    width: 60px;       
+}
+
+#types .techs{
+    font-size: 20px;        
+}
+
+#types > div{
+    margin-bottom: 10px;
+            
+}
+
+#types > div > div{
+    margin-bottom: 10px;
+    width: 80%;
+}
+
+#pro1, #pro2, #pro3{       
+    flex-direction: column; 
+    width: 90%;    
+    margin: auto;  
+    margin-top: 20px;
+}
+
+#pro2 {
+    flex-direction: column-reverse;
+}
+
+#pro1 > div, #pro2 > div, #pro3 > div{
+    width: 100%;        
+}
+
+.name{
+    font-size: 20px; 
+    font-weight: 600;        
+    line-height: 10px;  
+    margin-left: 0%; 
+}
+.name2{
+    text-align: left;
+    font-size: 20px;
+    font-weight: 600;        
+    line-height: 10px;   
+}
+.line{        
+    font-size: 15px;
+    margin-left: 0%;
+}
+
+.line2{
+    text-align: left;        
+    font-size: 14px;        
+}
+
+#pro1 img, #pro3 img, #pro2 img{
+   width: 100%;       
+   border: 1px solid black;
+   border-radius: 5px;
+   margin-left: 0cm;
+} 
+
+#pro1 button, #pro2 button, #pro3 button{       
+   font-size: 14px;       
+   letter-spacing: 1.5px;        
+   padding: 6px 12px 6px 12px; 
+   margin-left: 0%; 
+   margin-right: 0%;     
+} 
+
+#pro2 div:first-child{
+   text-align: left;
+}
+
+#contacts i{        
+    font-size: 20px;       
+}
+
+#incont > div{        
+    margin-top: 8px;
+}
+
+#incont p, #incont p{
+    font-size: 14px;        
+}
+
+#last{
+    height: 40px;        
+}
+ }
+
+
 
 /* setting screen size */
 /* Small screens */
@@ -412,6 +652,7 @@ a{
     #icon{
         height: 40px;
         width: 40px;
+        font-size: 10px;
     }
 
     #navbar{
@@ -434,7 +675,7 @@ a{
     #nav_opt > div{        
         margin-left: 0px;
         padding-left: 6px;
-        padding-right: 4px;       
+        padding-right: 12px;       
         font-size: 12px;
         height: 50%;
     }
@@ -454,16 +695,17 @@ a{
     }
 
     #intro{
-        font-size:34px;        
+        font-size:18px;        
         width: 52%;
-        line-height: 10px;       
+        line-height: 10px;  
+        text-justify: auto;     
         padding-left: 5%;
         margin-top: 20px;
     }
 
     #intro > .brief{
         width: 80%;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 24px;
     }
 
@@ -488,7 +730,8 @@ a{
     #skills, #projects, #contacts , #amoutme{
         width: 96%;       
         margin-top: 40px;
-        padding-bottom: 50%;
+        padding-bottom: 7%;
+
     }
 
     .heading{                
@@ -502,6 +745,9 @@ a{
     
     #amoutme i{
         font-size: 15px;
+    }
+    #amoutme {
+        margin-bottom: 90px;
     }
 
     .name3{
@@ -523,7 +769,7 @@ a{
 
     #types .skillHead{
         font-size: 20px;
-        padding-bottom: 200px;
+        padding-bottom: 23px;
     }
 
     #types img{
