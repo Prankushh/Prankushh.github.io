@@ -360,7 +360,7 @@ a{
     font-family: 'Open Sans', sans-serif;
     letter-spacing: 1px;
     color: white;
-    background-color: rgb(99, 99, 99);
+    background-color: rgba(15, 112, 83, 0.675);
     padding: 8px 16px 8px 16px;
     border-radius: 5px;
 } 
@@ -648,7 +648,7 @@ a{
         height: 80px;
         width: 100%;        
     }
-
+        
     #icon{
         height: 40px;
         width: 40px;
